@@ -1,0 +1,51 @@
+/* Basic styling for the navbar */
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 5vw;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e99534;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+  padding: 0.2vw 1vw;
+  border: 2px solid #000;
+  background: transparent;
+  border-radius: 5px;
+}
+.bttn{
+  background-image: linear-gradient(to right top, #e99534, #efa940, #f5bd4e, #fad15e, #fee570);
+  padding: 0.4vw 1vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2vw;
+  font-weight: 500;
+}

@@ -1,0 +1,30 @@
+.name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name .inputs{
+  width: 48%;
+  padding: 4px 0;
+}
+
+.fs-container{
+  height: 50vh;
+  margin-bottom: 5vw;
+  width: 50%;
+  padding: 2vw 4vw;
+  box-shadow: 2px 1px 2px #f4f4f4;
+  border-radius: 5px;
+}
+.fs-btn{
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.p-inputs{
+  width: 100%;
+  background-color: red;
+}

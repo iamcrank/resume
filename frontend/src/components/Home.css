@@ -1,0 +1,202 @@
+.page-wrapper{
+  width: 100%;
+}
+.main{
+  width: 100%;
+}
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45dvh;
+}
+.box1{
+  width: 100%;
+}
+.innerbox1{
+  width: 100%;
+  padding: 2vw 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading{
+  font-size: 3vw;
+  font-weight: 600;
+  padding: 0vw 10vw;
+}
+.main-subheading{
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 0vw 10vw;
+}
+.btnbox1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn1{
+  background-image: linear-gradient(to right top, #e99534, #efa940, #f5bd4e, #fad15e, #fee570);
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.start{
+  width: 100%;
+  padding: 3vw 5vw;
+}
+.start-heading{
+  font-size: 2.5vw;
+  font-weight: 600;
+  padding: 5vw 1vw;
+  text-align: center;
+}
+.content1{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.card{
+  width: 20vw;
+  height: 25dvh;
+  padding: 2vw 4vw;
+  margin: 1vw 2vw;
+  border-radius: 10px;
+  border: 1px solid #777676;
+}
+.card-heading{
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.card-body{
+  padding: 1vw 0vw;
+}
+.card-title{
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 400; 
+  padding: 1vw 0vw;
+}
+.card-text{
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 300; 
+}
+
+.para{
+  width: 100%;
+  padding: 5vw 1vw;
+}
+.parabox{
+  width: 100%;
+  padding: 2vw 10vw;
+}
+.parabox p{
+  font-size: 1.2vw;
+  font-weight: 300;
+  text-align: center;
+  padding: 0.5vw 0;
+}
+.features-heading{
+  font-size: 2.5vw;
+  font-weight: 200;
+  padding: 5vw 1vw;
+  text-align: center;
+}
+.box2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper-row{
+  width: 40vw;
+  height: 20vh;
+  padding: 2vw 5vw;
+
+}
+.f-heading{
+  font-size: 1.3vw;
+  font-weight: 500;
+  padding: 0.5vw 0vw;
+  opacity: 90%;
+}
+.f-text{
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 0.5vw 0vw;
+  opacity: 70%;
+}
+
+.build-wrapper{
+  width: 100%;
+  padding: 2vw 0; 
+}
+.build-heading{
+  width: 100%;
+  padding: 2vw 0;
+}
+.build-heading h2{
+  font-size: 1.6vw;
+  font-weight: 400;
+  text-align: center;
+  padding: 1vw 1vw;
+}
+.btnbox2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn2{
+  background-image: linear-gradient(to right top, #e99534, #efa940, #f5bd4e, #fad15e, #fee570);
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+
+/*builder*/
+.b-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m-box{
+  width: 100%;
+  padding: 0vw 3vw;
+
+}
+.m-buttons{
+ display: flex;
+ align-items: center;
+ margin-bottom: 5vw;
+
+}
+.b-btn{ 
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin: 0 2vw;
+  background-color: #e99534;
+}
+.d-btn{
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-left: 18vw;
+  background-color: #6e76f2;
+}
